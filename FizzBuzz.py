@@ -1,10 +1,12 @@
-for x in range(1,101):
-    string = ""
-    if x % 3 == 0:
-        string = string + "Fizz"
-    if x % 5 == 0:
-        string = string + "Buzz"
-    if x % 3 != 0 and x % 5 != 0:
-        string = string + str(x)
-    print(x)
-    
+def fizzbuzz(total):
+    for x in range(1, total + 1):
+        if x % 3 == 0 and x % 5 == 0:
+            print('Fizzbuzz')
+            elif x % 3 == 0:
+                print('Fizz')
+            elif x % 5 == 0:
+                print('Buzz')
+            else:
+                print(x)
+            
+fizzbuzz(100)
