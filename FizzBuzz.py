@@ -1,11 +1,11 @@
 def fizzbuzz(total):
     for x in range(1, total + 1):
         if x % 3 == 0 and x % 5 == 0:
-            print('Fizzbuzz')
+            print("Fizzbuzz")
         elif x % 3 == 0:
-            print('Fizz')
+            print("Fizz")
         elif x % 5 == 0:
-            print('Buzz')
+            print("Buzz")
         else:
             print(x)
             
